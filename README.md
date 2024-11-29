@@ -62,3 +62,11 @@ choco install gitA
   [Microsoft.PowerShell.PSConsoleReadLine]::EndOfLine()
   } # 设置向下键为前向搜索历史纪录，并将光标移动到行尾
   ```
+
+### Github SSH config
+(link)[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent]
+- if there is no 
+```ps1
+$email = ""
+
+```
