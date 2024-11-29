@@ -23,6 +23,14 @@ choco install wsl-ubuntu-2204
 ```ps1
 choco install gitA
 ```
+### Python installation
+```ps1
+choco install Python3
+```
+### Dotnet
+```
+choco install dotnet
+```
 ### oh-my-posh
 - Installation
   ```ps1
@@ -65,7 +73,7 @@ choco install gitA
 
 ### Github SSH config
 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- if there is no 
+
 ```ps1
 $email = ""
 ssh-keygen -t ed25519 -C $email
