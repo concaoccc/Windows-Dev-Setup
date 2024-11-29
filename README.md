@@ -28,7 +28,7 @@ choco install gitA
   ```ps1
   choco install oh-my-posh
   ```
-- (Config)[https://juejin.cn/post/7210596158934433853]
+- [Config](https://juejin.cn/post/7210596158934433853)
   - Install font
     - Download [font](https%3A%2F%2Fgithub.com%2Fryanoasis%2Fnerd-fonts%2Freleases%2Fdownload%2Fv2.3.3%2FCodeNewRoman.zip)
     - change font in Terminal setting as CodeNewRoman Nerd Font Mono
@@ -64,9 +64,13 @@ choco install gitA
   ```
 
 ### Github SSH config
-(link)[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent]
+[link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - if there is no 
 ```ps1
 $email = ""
-
+ssh-keygen -t ed25519 -C $email
+cat ~/.ssh/id_ed25519.pub | clip
+ssh -T git@github.com
 ```
+
+
