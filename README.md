@@ -39,7 +39,7 @@ choco install dotnet
 - [Config](https://juejin.cn/post/7210596158934433853)
   - Install font
     ```ps1
-    choco install font
+    oh-my-posh font install Cascadia Code PL
     ```
   - Install Termnial icon
     ```ps1
