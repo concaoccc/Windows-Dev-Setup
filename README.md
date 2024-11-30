@@ -38,8 +38,9 @@ choco install dotnet
   ```
 - [Config](https://juejin.cn/post/7210596158934433853)
   - Install font
-    - Download [font](https%3A%2F%2Fgithub.com%2Fryanoasis%2Fnerd-fonts%2Freleases%2Fdownload%2Fv2.3.3%2FCodeNewRoman.zip)
-    - change font in Terminal setting as CodeNewRoman Nerd Font Mono
+    ```ps1
+    choco install font
+    ```
   - Install Termnial icon
     ```ps1
     Install-Module -Name Terminal-Icons -Repository PSGallery
